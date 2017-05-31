@@ -1,0 +1,276 @@
+
+.navbar-brand {
+    padding: 0px 15px;
+}
+
+.navbar-brand img {
+    width: 160px;
+    height: auto;
+    display: inline-block;
+}
+
+.footer {
+    padding: 60px 0;
+
+}
+
+.footer-logo img {
+    max-width: 130px;
+    height: auto;
+}
+
+.footer .copy {
+    margin-top: 2em;
+}
+
+.footer p {
+    font-size: .9em;
+    color: rgba(69, 95, 108, .45);
+}
+
+.footer .list-menu {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.footer .list-menu li a {
+    color: rgba(69, 95, 108, .45);
+    font-size: .9em;
+    padding: 10px 6px;
+}
+
+.list-soc {
+    text-align: right;
+    margin: 0;
+    height: 35px;
+}
+
+.list-soc > li {
+    margin: 0 12px;
+}
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.block {
+    padding: 60px 0;
+}
+
+.promo {
+    background-image: url(https://www.greenback.com/assets/images/promo-bg.9ad0f81612100aa0f1948c691cb82593.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    text-align: center;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    width: auto;
+    height: 625px;
+    margin-top: -20px;
+    padding-top: 20px;
+}
+
+.promo .container {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(0deg, rgba(64, 147, 84, .86), rgba(69, 95, 108, .86) 71%, rgba(69, 95, 108, .86));
+}
+
+.header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    padding: 20px 0;
+}
+
+.navbar-default {
+    border-radius: 0;
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+.promo-msg {
+    position: static;
+    max-width: 460px;
+    left: 0;
+    transform: none;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    z-index: 5;
+    padding: 160px 0;
+
+}
+
+.promo-msg h1 {
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: .4em;
+    line-height: 1.1em;
+    font-size: 2.5em;
+}
+
+.promo-msg p {
+    margin: 5px 0;
+    font-size: 1.1em;
+    line-height: 1.4em;
+    font-weight: 300;
+}
+
+.navbar-default .navbar-collapse .navbar-nav > li > a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .75em;
+}
+
+.ctablock .signup .btn-primary {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 42px;
+    min-width: 120px;
+    background-color: #f4b11d;
+    color: rgba(0, 0, 0, .9);
+    border: none;
+    border-radius: 0 3px 0 3px;
+    text-align: center;
+}
+
+.signup {
+    max-width: 380px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+.form-prefix .picto {
+    color: rgba(0, 0, 0, .35);
+    font-size: 13px;
+    left: 16px;
+    position: absolute;
+    top: 28%;
+    opacity: .45;
+    transform: translateY(-50%);
+}
+
+.form-prefix .form-control {
+    height: 42px;
+    padding-left: 35px;
+}
+
+.promo-hero {
+    position: absolute;
+    right: 0;
+    z-index: 2;
+    width: 54%;
+    top: 90px;
+    height: auto;
+    bottom: -15px;
+    background-position: 100% 100%;
+    background-image: url("https://www.greenback.com/assets/images/hero-home-full.bc92cb2c5191a5e2cc00533018518204.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.list-promo .picto {
+    max-width: 200px;
+    height: auto;
+}
+
+.block .sect {
+    margin: 0 auto;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgba(69, 95, 108, 45);
+    letter-spacing: 2px;
+    margin-bottom: 1em;
+}
+
+.block h2 {
+    text-align: center;
+    font-size: 1.875em;
+    line-height: 1.1em;
+    max-width: 600px;
+    margin: 1em auto;
+    font-weight: 400;
+}
+
+.block .intro {
+    max-width: 840px;
+    margin: 0 auto;
+    color: rgba(69, 95, 108, 75);
+    margin-bottom: 3.5em;
+    font-size: 1.1em;
+}
+
+.list-promo > li {
+    display: inline-block;
+    vertical-align: top;
+    width: 33.3%;
+    text-align: center;
+    margin: 0;
+    margin-right: -4px;
+}
+
+.list-promo h3 {
+    font-size: 1.2em;
+    color: #3ead47;
+    margin: .8em 0;
+    line-height: 1.1em;
+}
+
+.list-promo p {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.ctablock {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.ctablock .btn-primary {
+    min-width: 180px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.btn {
+    line-height: 1em;
+    font-size: .825em;
+    font-weight: 700;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    padding: 1.4rem 2.5rem;
+}
+
+.promo-slider img {
+    width: 100%;
+    height: auto;
+}
+
+.block.grey {
+    background-color: rgba(69, 95, 108, .08);
+}
+
+.list-parter > li {
+    width: 20%;
+    display: inline-block;
+    horiz-align: left;
+    margin: 0;
+    margin-right: -4px;
+}
+
+.list-parter li img {
+    max-width: 140px;
+    height: auto;
+}
